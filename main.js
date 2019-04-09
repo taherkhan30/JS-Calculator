@@ -57,7 +57,10 @@ if (calcChoice == 1) {
 
     } else if(userOption == 2){
 
-
+        var sqrtNum = prompt("Which number do you want to sqaure?");
+          sqrtNum = parseInt (sqrtNum);
+          var result = Math.sqrt(sqrtNum);
+          alert(result);
 
     }
 
