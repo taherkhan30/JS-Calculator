@@ -41,9 +41,9 @@ if (calcChoice == 1) {
 
   // advanced calc
 
-  alert("Welcome to the advanced calculator");
+  alert("Welcome to the Advanced Calculator");
 
-  var userOption = prompt("press 1 for to find power of num or 2 to the root number");
+  var userOption = prompt("Type 1 for to find power of numbers or 2 to find the root of a number");
   // num 1
 
     if (userOption == 1 ){
@@ -57,7 +57,7 @@ if (calcChoice == 1) {
 
     } else if(userOption == 2){
 
-        var sqrtNum = prompt("Which number do you want to sqaure?");
+        var sqrtNum = prompt("Which number do you want to square?");
           sqrtNum = parseInt (sqrtNum);
           var result = Math.sqrt(sqrtNum);
           alert(result);
