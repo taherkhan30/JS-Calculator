@@ -41,18 +41,26 @@ if (calcChoice == 1) {
 
   // advanced calc
 
-  alert("Welcome to the advanced calculator")
+  alert("Welcome to the advanced calculator");
 
+  var userOption = prompt("press 1 for to find power of num or 2 to the root number");
   // num 1
 
-  // num 2
+    if (userOption == 1 ){
+      var num1 = prompt("num 1");
+      // num 2
+      var num2 = prompt("num 2");
+      num1 = parseInt (num1);
+      num2 = parseInt (num2);
+      var result = Math.pow(num1,num2);
+      alert(result);
 
-  // opearation
+    } else if(userOption == 2){
 
-  // power
 
-  // square root
 
-  // present result to user
+    }
+
+
 
 }
